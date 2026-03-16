@@ -87,16 +87,29 @@ Stripe Webhooks → Subscription & Plan Enforcement Service → Organization Pla
 ## Current Status
 
 Phase 1 – Foundation
-- [ ] Multi-tenant architecture
-- [ ] Authentication & RBAC
+- [x] Project Scaffolding
+- [ ] Database Connection & Schema Design
+- [ ] Authentication (JWT)
+- [ ] RBAC Middleware
+- [ ] Org & User Management Routes
 
 Phase 2 – Core Engine
-- [ ] Event ingestion pipeline
-- [ ] Analytics aggregation layer
+- [ ] API Key System
+- [ ] Event Ingestion Endpoint
+- [ ] Analytics Aggregation Layer
+- [ ] Spike Detection
 
 Phase 3 – Monetization
-- [ ] Stripe subscription integration
-- [ ] Plan enforcement middleware
+- [ ] Stripe Integration & Plans
+- [ ] Stripe Webhook Handler
+- [ ] Plan Enforcement Middleware
 
-Phase 4 – Enhancements
-- [ ] Advanced anomaly detection
+Phase 4 – Frontend
+- [ ] Auth Pages & Protected Routes
+- [ ] Dashboard Page
+- [ ] Settings Page
+
+Phase 5 – Polish & Deployment
+- [ ] Environment Config & Secrets Management
+- [ ] Deploy Backend
+- [ ] Deploy Frontend
