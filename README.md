@@ -89,7 +89,7 @@ Stripe Webhooks → Subscription & Plan Enforcement Service → Organization Pla
 Phase 1 – Foundation
 - [x] Project Scaffolding
 - [x] Database Connection & Schema Design
-- [ ] Authentication (JWT)
+- [x] Authentication (JWT)
 - [ ] RBAC Middleware
 - [ ] Org & User Management Routes
 

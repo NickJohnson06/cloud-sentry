@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-// TODO: Add routes here
+app.use('/api/auth', require('./routes/authRoutes'));
 
 app.get('/', (req, res) => {
   res.send('CloudSentry API is running...');
