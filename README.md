@@ -90,8 +90,8 @@ Phase 1 – Foundation
 - [x] Project Scaffolding
 - [x] Database Connection & Schema Design
 - [x] Authentication (JWT)
-- [ ] RBAC Middleware
-- [ ] Org & User Management Routes
+- [x] RBAC Middleware
+- [x] Org & User Management Routes
 
 Phase 2 – Core Engine
 - [ ] API Key System
