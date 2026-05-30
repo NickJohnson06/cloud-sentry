@@ -10,11 +10,24 @@ const {
   updateMemberRole,
   removeMember
 } = require('../controllers/orgController');
+const {
+  createApiKey,
+  listApiKeys,
+  revokeApiKey
+} = require('../controllers/apiKeyController');
 
 // Organization detail routes
 router.route('/me')
   .get(protect, getOrganization)
   .put(protect, authorize('owner', 'admin'), updateOrganization);
+
+// Organization API Key management routes
+router.route('/me/keys')
+  .get(protect, authorize('owner', 'admin'), listApiKeys)
+  .post(protect, authorize('owner', 'admin'), createApiKey);
+
+router.route('/me/keys/:keyId')
+  .delete(protect, authorize('owner', 'admin'), revokeApiKey);
 
 // Organization members routes
 router.route('/me/members')

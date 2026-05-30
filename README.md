@@ -94,7 +94,7 @@ Phase 1 – Foundation
 - [x] Org & User Management Routes
 
 Phase 2 – Core Engine
-- [ ] API Key System
+- [x] API Key System
 - [ ] Event Ingestion Endpoint
 - [ ] Analytics Aggregation Layer
 - [ ] Spike Detection
