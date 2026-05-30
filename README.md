@@ -95,7 +95,7 @@ Phase 1 – Foundation
 
 Phase 2 – Core Engine
 - [x] API Key System
-- [ ] Event Ingestion Endpoint
+- [x] Event Ingestion Endpoint
 - [ ] Analytics Aggregation Layer
 - [ ] Spike Detection
 
